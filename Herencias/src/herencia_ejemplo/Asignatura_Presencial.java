@@ -29,7 +29,7 @@ public class Asignatura_Presencial extends Asignatura{
     
     @Override
     public String toString(){
-        return String.format("%s \n Numero Horas: %d",super.toString(),getNumero_horas());
+        return String.format("%s \n\t\t\tNumero Horas: %d",super.toString(),getNumero_horas());
         
     }
     

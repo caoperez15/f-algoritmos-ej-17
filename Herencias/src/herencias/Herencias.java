@@ -19,17 +19,17 @@ public class Herencias {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-      Asignatura_Presencial asig1 = new Asignatura_Presencial("Programacion", "comun", 100, 180);
-        
-      Asignatura_Presencial asig2 = new Asignatura_Presencial("Literatura", "Troncal", 300, 6); 
-      
-      Asignatura [] asignatura = new Asignatura[2];
-      asignatura[0]=asig1;
-      asignatura[1]=asig2;
-      
-      Estudiante e = new Estudiante("Rene", "Elizalde", 34, asignatura);
+        Asignatura_Presencial asig1 = new Asignatura_Presencial("Programacion", "Comun", 100, 180);
+
+        Asignatura_Presencial asig2 = new Asignatura_Presencial("Literatura", "Troncal", 300, 200);
+
+        Asignatura[] asignatura = new Asignatura[2];
+        asignatura[0] = asig1;
+        asignatura[1] = asig2;
+
+        Estudiante e = new Estudiante("Rene", "Elizalde", 34, asignatura);
         System.out.println(e);
-      
+
     }
-    
+
 }

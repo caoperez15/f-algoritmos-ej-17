@@ -47,7 +47,7 @@ public class Asignatura {
     
     @Override
     public String toString(){
-        return String.format("Nombre: %s \n Tipo: %s \n Costo: %f"
+        return String.format("Nombre: %s \n\t\t\tTipo: %s \n\t\t\tCosto: $%.0f"
         ,getNombre()
         ,getTipo()
         ,getCosto()
